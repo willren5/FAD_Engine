@@ -1,42 +1,40 @@
 # FAD Engine
 
-[![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)](#development-and-integration)
-[![CMake 3.24+](https://img.shields.io/badge/CMake-3.24%2B-064F8C?logo=cmake&logoColor=white)](#build)
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)](#开发与接入)
+[![CMake 3.24+](https://img.shields.io/badge/CMake-3.24%2B-064F8C?logo=cmake&logoColor=white)](#构建)
 [![openFAD 0.1](https://img.shields.io/badge/license-openFAD%200.1-555555)](LICENSE)
 
-[English](README.md) · [简体中文](README.zh-CN.md)
+[简体中文](README.md) · [English](README.en.md)
 
-FAD Engine is the C++20 synthesis engine of FAD Synth. It renders parameter
-snapshots, prepared sound assets and MIDI events into audio.
+FAD Engine 是 FAD Synth 的 C++20 合成器内核，将参数快照、已准备的声音资产和
+MIDI事件渲染为音频。
 
-## Features
+## 功能
 
-| Area | Capabilities |
+| 模块 | 内容 |
 | --- | --- |
-| Synthesis | Analog, wavetable and FM oscillators; sub oscillator; sample-based noise; unison, warp and cross-modulation. |
-| Filtering and modulation | Filter models, envelopes, eight LFOs, a 32-slot modulation matrix, macros and performance controls. |
-| Voices and MIDI | 16-voice allocation, mono/poly, glide, legato, pedals, MPE and MIDI1/UMP channel-voice events. |
-| Effects | Drive, Distortion, Bitcrusher, Chorus, Flanger, Phaser, Delay, Reverb, EQ, Compressor, Limiter, Filter and Stereo; graph routing, latency and tails. |
-| Assets | Wavetable and noise data, mipmaps, curves and history; generation-based audio access, reader pinning and background retirement. |
-| Rendering | Seed-controlled offline rendering, sample-offset event processing and bit-exact regression comparisons. |
+| 合成 | 模拟、波表和FM振荡器，Sub、样本Noise、Unison、Warp及交叉调制。 |
+| 滤波与调制 | 滤波模型、包络、8个LFO、32槽调制矩阵、Macro与演奏控制。 |
+| 声部与MIDI | 16声部分配、Mono/Poly、Glide、Legato、踏板、MPE及MIDI1/UMP channel-voice事件。 |
+| 效果 | Drive、Distortion、Bitcrusher、Chorus、Flanger、Phaser、Delay、Reverb、EQ、Compressor、Limiter、Filter和Stereo，配合Graph路由、Latency和Tail。 |
+| 资产 | 波表、Noise、Mipmap、曲线与History；按generation读取、reader pin和后台退役。 |
+| 渲染 | Seed控制的离线渲染、Sample Offset事件处理和Bit-exact回归比较。 |
 
-## Development and integration
+## 开发与接入
 
-- JUCE-independent Core using C++20, CMake and native thread support.
-- Source-level access to synthesis, modulation, filters, voices and effect processors.
-- Measurement-based compatibility mappings for Serum-style synthesis behavior.
-- Snapshot and asset interfaces for downstream preset conversion and sound-library integration.
-- Prepared buffers, bounded event queues and atomic resource handoff in the audio path.
-- Commercial integration, source customization and Chinese-language communication through FAD Records.
+- JUCE独立的Core，使用C++20、CMake和原生线程支持。
+- 源码可编辑，覆盖合成、调制、滤波、声部和效果器。
+- 来自测量与兼容工作中的Serum类合成行为映射。
+- Snapshot与Asset接口用于接入预设转换和音色库。
+- 音频路径采用预分配Buffer、固定容量事件队列和原子资源交接。
+- FAD Records提供商业接入、源码定制和中文交流渠道。
 
-Applications include audio plugins, standalone instruments, AI music and
-sound-generation tools, batch render workers and automated audio regression.
-The source and CMake project also provide the starting point for native-platform
-porting projects such as ARM64 Linux.
+应用场景包括音频插件、独立乐器、AI音乐与声音生成、批量渲染服务和自动化音频回归。
+C++20源码与CMake工程也可用于ARM64 Linux等原生平台的移植项目。
 
-## Build
+## 构建
 
-The project uses a C++20 compiler, CMake3.24+ and a thread library.
+项目使用C++20编译器、CMake3.24+和线程库。
 
 ```sh
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
@@ -44,54 +42,52 @@ cmake --build build --parallel 4
 ctest --test-dir build --output-on-failure --no-tests=error
 ```
 
-## Render a WAV
+## 渲染WAV
 
 ```sh
 ./build/FadEngineRender --output first-sound.wav --sample-rate 48000 \
   --block-size 512 --seconds 3 --note 60 --velocity 100 --seed 1178682369
 ```
 
-The renderer writes stereo float32 WAV. Its controls are Gain, Tone, Attack and
-Release. `FadEngineRender --help` lists the command-line parameters.
+Renderer输出双声道float32 WAV，控制项为Gain、Tone、Attack和Release。
+命令行参数见 `FadEngineRender --help`。
 
-## Embed the library
+## 接入项目
 
 ```cmake
 add_subdirectory(path/to/FAD_Engine fad-engine)
 target_link_libraries(MyInstrument PRIVATE FAD::EngineCore)
 ```
 
-An installed package uses:
+安装后的Package通过以下方式接入：
 
 ```cmake
 find_package(FadEngine 0.1.0 EXACT CONFIG REQUIRED)
 target_link_libraries(MyInstrument PRIVATE FAD::EngineCore)
 ```
 
-The main interfaces are `RenderEngine`, `VoiceCore`, `ParameterSnapshot`,
-`RuntimeWavetableBank`, `DynamicFxChainCore` and `AudioBufferView`.
-Preparation initializes voices, buffers and effects. Snapshot publication
-updates the sound. Rendering consumes the audio views and timed events supplied
-by the host.
+主要接口为 `RenderEngine`、`VoiceCore`、`ParameterSnapshot`、
+`RuntimeWavetableBank`、`DynamicFxChainCore` 和 `AudioBufferView`。
+Prepare准备声部、Buffer和效果器，Snapshot发布更新声音，Render处理宿主提供的
+音频视图和时间线事件。
 
-## Source map
+## 源码结构
 
-| Path | Contents |
+| 目录 | 内容 |
 | --- | --- |
-| `include/fad/engine/` | Public types and module interfaces. |
-| `src/` | Render engine, voices, oscillators, modulation, filters, assets and effects. |
-| `tests/` | Core, runtime primitive, asset publication, voice, render and FX graph checks. |
-| `examples/headless/` | WAV renderer. |
-| `examples/common/` | Demo controls and snapshot mapping. |
-| `examples/vst3/` | VST® 3 instrument example and console host. |
+| `include/fad/engine/` | 公共类型与模块接口。 |
+| `src/` | 渲染、声部、振荡器、调制、滤波、资产和效果实现。 |
+| `tests/` | Core、Primitive、资产发布、Voice、Render和FX Graph检查。 |
+| `examples/headless/` | WAV Renderer。 |
+| `examples/common/` | Demo控制与Snapshot映射。 |
+| `examples/vst3/` | VST® 3乐器示例及Console Host。 |
 
-## VST® 3 example
+## VST® 3示例
 
 <img src="assets/steinberg/vst-compatible.png" width="160" alt="Steinberg VST Compatible logo">
 
-The example uses the official SDK pinned in
-[SDK-LOCK.json](examples/vst3/SDK-LOCK.json). It exposes stereo audio,
-sample-offset MIDI, four controls and versioned state.
+示例使用 [SDK-LOCK.json](examples/vst3/SDK-LOCK.json) 指定的官方SDK，
+提供Stereo Audio、Sample Offset MIDI、四个控制和版本化State。
 
 ```sh
 cmake -S . -B build-vst3 -DCMAKE_BUILD_TYPE=Release \
@@ -99,17 +95,17 @@ cmake -S . -B build-vst3 -DCMAKE_BUILD_TYPE=Release \
 cmake --build build-vst3 --target FadEngineDemo --parallel 4
 ```
 
-## Documentation
+## 文档
 
-[Quick start](docs/QUICK_START.md) · [Architecture](docs/ARCHITECTURE.md) ·
-[Developer guide](docs/DEVELOPMENT_GUIDE.zh-CN.md) ·
-[Training manuscript](docs/DEVELOPER_NARRATION.zh-CN.md) · [Skills](skills/README.md)
+[快速开始](docs/QUICK_START.md) · [架构](docs/ARCHITECTURE.md) ·
+[开发指南](docs/DEVELOPMENT_GUIDE.zh-CN.md) ·
+[培训文稿](docs/DEVELOPER_NARRATION.zh-CN.md) · [开发Skills](skills/README.md)
 
-## License
+## 许可
 
-[openFAD 0.1](LICENSE) · [Commercial licensing](legal/COMMERCIAL-LICENSE.md)
+[openFAD 0.1](LICENSE) · [商业授权](legal/COMMERCIAL-LICENSE.md)
 
-## Contact
+## 联系
 
 [fad@fadrecords.com](mailto:fad@fadrecords.com)
 
