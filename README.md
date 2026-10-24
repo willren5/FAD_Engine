@@ -6,8 +6,8 @@
 
 [简体中文](README.md) · [English](README.en.md)
 
-FAD Engine 是 FAD Synth 的 C++20 合成器内核，将参数快照、已准备的声音资产和
-MIDI事件渲染为音频。
+FAD Engine 是 **FAD Synth 的自研 DSP 内核**，使用 C++20 实现，将参数快照、已准备的
+声音资产和 MIDI 事件渲染为音频。
 
 ## 功能
 

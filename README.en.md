@@ -6,8 +6,8 @@
 
 [简体中文](README.md) · [English](README.en.md)
 
-FAD Engine is the C++20 synthesis engine of FAD Synth. It renders parameter
-snapshots, prepared sound assets and MIDI events into audio.
+FAD Engine is **the in-house DSP core of FAD Synth**, implemented in C++20.
+It renders parameter snapshots, prepared sound assets and MIDI events into audio.
 
 ## Features
 
