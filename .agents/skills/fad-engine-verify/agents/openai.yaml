@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine 验证与证据"
+  short_description: "按实际修改选择检查，核对源码二进制并保留原始失败和边界"
+  default_prompt: "使用 $fad-engine-verify 验证当前指定修改，报告实际证据层次和未验证范围。"

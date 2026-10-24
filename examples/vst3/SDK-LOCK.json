@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "upstream": "https://github.com/steinbergmedia/vst3sdk",
+  "tag": "v3.8.1_build_84",
+  "revision": "3cdf9ca5d1f5b1b21e0a86832aa4abe55607bd96",
+  "submodules": [
+    {
+      "path": "base",
+      "revision": "fcf9da0bd27a16f7f03773a3a39822f28f5c8477",
+      "license_files": [
+        {
+          "path": "base/LICENSE.txt",
+          "sha256": "e86d79e19e4a33ebc442d2e0d083887dfc75a2a8de9fe17eeddedb84810ad74e"
+        }
+      ]
+    },
+    {
+      "path": "cmake",
+      "revision": "054c9143cbb8d47fc4694e473f2ee3b4d951a8f5",
+      "license_files": [
+        {
+          "path": "cmake/LICENSE.txt",
+          "sha256": "e86d79e19e4a33ebc442d2e0d083887dfc75a2a8de9fe17eeddedb84810ad74e"
+        }
+      ]
+    },
+    {
+      "path": "pluginterfaces",
+      "revision": "4f547e8e102b47de4a8b8aaf343c73b700786372",
+      "license_files": [
+        {
+          "path": "pluginterfaces/LICENSE.txt",
+          "sha256": "e86d79e19e4a33ebc442d2e0d083887dfc75a2a8de9fe17eeddedb84810ad74e"
+        }
+      ]
+    },
+    {
+      "path": "public.sdk",
+      "revision": "586dc5e6c8012c3e4b01c79389375cbe96bdb1da",
+      "license_files": [
+        {
+          "path": "public.sdk/LICENSE.txt",
+          "sha256": "e86d79e19e4a33ebc442d2e0d083887dfc75a2a8de9fe17eeddedb84810ad74e"
+        }
+      ]
+    }
+  ],
+  "root_license": {
+    "path": "LICENSE.txt",
+    "sha256": "e86d79e19e4a33ebc442d2e0d083887dfc75a2a8de9fe17eeddedb84810ad74e",
+    "declared_license": "MIT"
+  },
+  "optional": true,
+  "download_during_configure_or_build": false,
+  "global_plugin_installation": false,
+  "juce_dependency": false,
+  "public_release_authorized": false
+}

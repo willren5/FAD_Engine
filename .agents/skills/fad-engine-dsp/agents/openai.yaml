@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine DSP 修改"
+  short_description: "沿真实声音调用链修复共享算法，保持数值、时序与实时合同"
+  default_prompt: "使用 $fad-engine-dsp 定位并修复这个声音问题，保留原声音合同并运行相关验证。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine 独立开发起步"
+  short_description: "定位独立源码、建立本机构建并验证第一个可重复的声音输出"
+  default_prompt: "使用 $fad-engine-start 在当前选定工作树构建独立 Core，并运行最小发声示例。"

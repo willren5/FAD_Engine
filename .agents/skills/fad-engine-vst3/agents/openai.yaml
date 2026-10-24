@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine 独立 VST3"
+  short_description: "使用固定官方 SDK 扩展独立插件，验证 MIDI、自动化和状态"
+  default_prompt: "使用 $fad-engine-vst3 构建或扩展独立 VST3 示例，并验证实际模块行为。"

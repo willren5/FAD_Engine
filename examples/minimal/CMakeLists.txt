@@ -1,0 +1,8 @@
+add_executable(FadEngineMinimal minimal_render.cpp)
+target_link_libraries(FadEngineMinimal PRIVATE FAD::EngineCore)
+target_compile_features(FadEngineMinimal PRIVATE cxx_std_20)
+set_target_properties(FadEngineMinimal PROPERTIES CXX_EXTENSIONS OFF RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
+if(FAD_ENGINE_BUILD_TESTS)
+    add_test(NAME FadEngineMinimal COMMAND FadEngineMinimal)
+    set_tests_properties(FadEngineMinimal PROPERTIES TIMEOUT 30)
+endif()

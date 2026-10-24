@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine 资源生命周期"
+  short_description: "处理波表、Noise 与曲线的完整发布、代际固定和安全退役"
+  default_prompt: "使用 $fad-engine-assets 检查并修复这项资源发布或生命周期问题。"

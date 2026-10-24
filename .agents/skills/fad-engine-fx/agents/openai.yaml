@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine FX 与路由"
+  short_description: "开发效果器与完整 FX graph，保持 routing、latency 和尾音"
+  default_prompt: "使用 $fad-engine-fx 完成这项效果器或图结构修改，并验证切换、延迟和尾音。"

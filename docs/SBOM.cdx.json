@@ -1,0 +1,1745 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ebd2c4cc-6871-4c8f-ad27-9bc678073748",
+  "version": 2,
+  "metadata": {
+    "timestamp": "2026-10-24T09:42:35Z",
+    "component": {
+      "type": "library",
+      "bom-ref": "fad-engine-core@0.1.0",
+      "name": "FAD Engine",
+      "version": "0.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "openFAD 0.1 or a separate Commercial License"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/AudioBlock.h",
+      "name": "include/fad/engine/AudioBlock.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eb6348d1449bd003da76e3c8df0b9c4709ae7080f50b6a3eb6edae68a5d2a0ce"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/Engine.h",
+      "name": "include/fad/engine/Engine.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "05c81fa7416b398ca685393e224b5d4e54a5f62ea52f8f812e7c9c9a56ddce9a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/AudioView.h",
+      "name": "include/fad/engine/AudioView.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6bdfaac87c13797882b7b9639c56c1a2a92c91f904019c6cf2d7e71c08eb8791"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/NativeLfoBus.h",
+      "name": "include/fad/engine/modulation/NativeLfoBus.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ecf95f629810232e78974ef8220b422ecd4403e9752904b08771eb07eed36f9"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/LinearEnvelope.h",
+      "name": "include/fad/engine/modulation/LinearEnvelope.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "49a39fcd976900ab634629cf3ea7877fa2e86f4499a448b4f20bfee866dfe293"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/HoldEnvelope.h",
+      "name": "include/fad/engine/modulation/HoldEnvelope.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e226958a55a15a0cdd524605a6626e03dec48e91399434184475700e47afc3e8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/CurveNodesRuntime.h",
+      "name": "include/fad/engine/modulation/CurveNodesRuntime.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c20ff7a1ba22d1e5bd4661e63c9378239c3ed534d50d78b9ebed8c1724434ebb"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/NativeLfoRate.h",
+      "name": "include/fad/engine/modulation/NativeLfoRate.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d13475d999140f25c0727686758ae578ca376768bd245af6e1e6b68ea70e6737"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/NativeLfoCurveRuntime.h",
+      "name": "include/fad/engine/modulation/NativeLfoCurveRuntime.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "76c5a2000d4fc617cd6a9cdc186f60853897858a077b526b8fe48ac4e456d9df"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/ModMatrix.h",
+      "name": "include/fad/engine/modulation/ModMatrix.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1e79c5a8fa5b646c029014df76ddafe4e673a0819e3d91832e1c4b0e272d8ac8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/Lfo.h",
+      "name": "include/fad/engine/modulation/Lfo.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e488734356fa36e652d2e69176b1267be87dad8355b962da12d1a7b2be35558e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/PreciseEnvelope.h",
+      "name": "include/fad/engine/modulation/PreciseEnvelope.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "50ae90f00f798465eb10a6de53c2505f9272dd1911349358441f27c17791acff"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/NoteOnModulation.h",
+      "name": "include/fad/engine/modulation/NoteOnModulation.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f822fe28f11d2874f4d58eb0282aba6f3dc345688e6c909d1c21375d4d2a19df"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/modulation/NativeLfoCurveCalibration.h",
+      "name": "include/fad/engine/modulation/NativeLfoCurveCalibration.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bd5ef0ac0999158c9ce2d14457f8924f083cf6ec016e9603456b79646db83325"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/MonoChorus.h",
+      "name": "include/fad/engine/filters/MonoChorus.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2a8047332b1ade3d4423832d5f7fb11369080b796d36051071b932a6eaa33a93"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/FilterBlock.h",
+      "name": "include/fad/engine/filters/FilterBlock.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d923201565fc6347c19660c4cc257f45bc25adc1cec60331956b65d81626917e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/Biquad.h",
+      "name": "include/fad/engine/filters/Biquad.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "120ffd36957a6e66cd831896cdf26b7681af4048c28c6cd7ae29942e65f9b16a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/PreparedAllpass2x.h",
+      "name": "include/fad/engine/filters/PreparedAllpass2x.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "729686d001aeae043b118df984ca803c5faceca44f0a415e05a7f90af51c3075"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/SerumPhaseFilter.h",
+      "name": "include/fad/engine/filters/SerumPhaseFilter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3d40d86663a22fc5fef37da20c0f56b336f5e79be74f4f64307101ebe19d7254"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/FractionalDelay.h",
+      "name": "include/fad/engine/filters/FractionalDelay.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9f9c370879d23bc62b0e69c38d671192f71c08fb952feafda9ed5a826296c733"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/Oversample2x.h",
+      "name": "include/fad/engine/filters/Oversample2x.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dcdf2719e0b137a7c4626e96f7be1a8abfcf7d98f47b2eb283accc50e352596f"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/CurveNodeFilter.h",
+      "name": "include/fad/engine/filters/CurveNodeFilter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d3deb298bf2e81509fd09a597d91fc94b61dbe2a6f3f0b484d1f334c28bb848c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/SerumScreamFilter.h",
+      "name": "include/fad/engine/filters/SerumScreamFilter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a328bc9cf0b229bb37d638f84e166b378ec0484a3e01e0d5e087b7973e45b9c7"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/SerumCombFilter.h",
+      "name": "include/fad/engine/filters/SerumCombFilter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4e0ef36a68e3445035459062f13ee1f9ece49d6a6248440818c62c26b7ca1102"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/TptStateVariable.h",
+      "name": "include/fad/engine/filters/TptStateVariable.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6fc6e4aa3c8aa8d4efe0759779a9774d99f76958d3a7984bacd7d5d90d24d626"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/SerumFilterDrive.h",
+      "name": "include/fad/engine/filters/SerumFilterDrive.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "331418329cebfca6c17282c2a9002b31987cd137a3927350acce485cabf0d17b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/LinkwitzRileySplit.h",
+      "name": "include/fad/engine/filters/LinkwitzRileySplit.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cf30765be8c93cf055f241086ec5435f00ae2c9a298132bb094e4a2a96f12345"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/filters/SerumDistortionFilter.h",
+      "name": "include/fad/engine/filters/SerumDistortionFilter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a8121f10898c7769b0ceea8fd67717df8aac6ce73cace70e80fb99ed02903bc1"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/midi/MidiSource.h",
+      "name": "include/fad/engine/midi/MidiSource.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "631200c0baa3e76fda056e7a9264083e6c4236f44ba701f60f009ade680c885d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/midi/MidiCiProcessState.h",
+      "name": "include/fad/engine/midi/MidiCiProcessState.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "64a738591c26c05f1ff7ca83d9eca6fba59449c43526b05e0296165b2a71373b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/midi/RenderMidiEvent.h",
+      "name": "include/fad/engine/midi/RenderMidiEvent.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8380f6e355e2f34b29b8778ab97213734280d16eed1d145d4e8bcecba63e4370"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/midi/ShortMessage.h",
+      "name": "include/fad/engine/midi/ShortMessage.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0d639d066fc24e3e714eed2e2ba13b45a2126ef690b1770a7cb617a6e2236f8b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/midi/UmpChannelVoice.h",
+      "name": "include/fad/engine/midi/UmpChannelVoice.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bf3b652475e24ff9d6f94c04fbeb9b3782da8e266fe78199f2d98b9e4b2b91f6"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/FxBackend.h",
+      "name": "include/fad/engine/fx/FxBackend.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7453b29de502dc17efca22f1ef173f06b75e07ac2111f8e1401784d1bc7f78cb"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/ReverbFx.h",
+      "name": "include/fad/engine/fx/ReverbFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fc4a674ad21a6b6527e5f170aab2871e87b5bd734b79c46c7b6f753cf9e942c9"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/DelayFx.h",
+      "name": "include/fad/engine/fx/DelayFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5d7a9ae9a3190a404d41b0b463c425e58093321757368dd22f1277af5a8ff5c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/ChorusFx.h",
+      "name": "include/fad/engine/fx/ChorusFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "289e81e6f2e682bf7185ebe10e4439c5f26de813b81c3c77e8452ac6b3795581"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/NativePhaserCore.h",
+      "name": "include/fad/engine/fx/NativePhaserCore.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "63afba26dfc5cc45b4458243c52cf4bbb784728eea31e3aaf05b819918246ec6"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/BaseFxProcessor.h",
+      "name": "include/fad/engine/fx/BaseFxProcessor.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e62c2dd66067afa4e59f2d1c0ab10ff70381c96b5f7c07ff13f5115edc0dd858"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/FxCatalog.h",
+      "name": "include/fad/engine/fx/FxCatalog.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fd975af693c18e588b8cd80e0d7abc86c4b106552287dc791ddc1b61926174a5"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/FxTail.h",
+      "name": "include/fad/engine/fx/FxTail.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "28cd188e734a55539c25c03ca25a78b2bfba0e6c0754c90776f204b63b82a641"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/BitcrusherFx.h",
+      "name": "include/fad/engine/fx/BitcrusherFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c8479bce72f62d78d01b2def9d6891029d73ce104085d8976e3ec91826309e21"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/WideFxControls.h",
+      "name": "include/fad/engine/fx/WideFxControls.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "06e014d6b9aaf829058f3b9309f70b23670462fc2a40580675981353a43e6bf9"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/SerumZeroSquare.h",
+      "name": "include/fad/engine/fx/SerumZeroSquare.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "76dd1e24d3d6d9d5021acd8b54df88c0042f96ee1abc47dadd3fad4133fe820b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/PhaserFx.h",
+      "name": "include/fad/engine/fx/PhaserFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "67c1829dbbd1f15bb49a937528929d8ed51f8e4988751b091d243c9342cd1154"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/DistortionFx.h",
+      "name": "include/fad/engine/fx/DistortionFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dda9c6f64a0f52358a29c1f931be8b899dd4c8afd4485a35d40c5aa340dd12b3"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/FlangerFx.h",
+      "name": "include/fad/engine/fx/FlangerFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c0386a0a905dee288abaf5cd3ece4aa8509ab639aa57cf857b5eeba5ae78d46b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/NativeHallReverb.h",
+      "name": "include/fad/engine/fx/NativeHallReverb.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0a9ff5f1cd9defec3fbf53a18c7d6c551007d2f5256ad341251b148a6a4c1712"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/FxFactory.h",
+      "name": "include/fad/engine/fx/FxFactory.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8f7c7e9833ea21c6813cc74a1f9550367b90d860d040a3afbe2f6e063d324ca2"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/FilterFx.h",
+      "name": "include/fad/engine/fx/FilterFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9d251b409f7bc76f1794ed5c9e126555491e0a3cc59c070b31aaadf1a51966dc"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/StereoFx.h",
+      "name": "include/fad/engine/fx/StereoFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "af7c881a19ccf7ec13b9ec1ef7eb27b8bdb4bebcfa8f56bf8ddd8c5d962e7664"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/CompressorFx.h",
+      "name": "include/fad/engine/fx/CompressorFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "38642bdeda3bf1ee7d23cace25f0c8b4a8327c109cc136667af3ab2c002b776e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/DynamicFxChain.h",
+      "name": "include/fad/engine/fx/DynamicFxChain.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "da706870b707e75f900d7027d5a7f3c8f6fdc3d8b894d1b683138d443124f9d1"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/LimiterFx.h",
+      "name": "include/fad/engine/fx/LimiterFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cb97af483a072475aae208099a5bcb597e23cd83acabaca537462df53c157a40"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/DriveFx.h",
+      "name": "include/fad/engine/fx/DriveFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "99cbd3b02b84b473d5b0a8e319df5e956d5d7da9aa70de0707c2a9bf67738331"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/NativeWetModulation.h",
+      "name": "include/fad/engine/fx/NativeWetModulation.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1fbe0719665d659a7723f43c732e520e2c42e3791a05ad80f3b650c29f1cd3ee"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/fx/Eq3BandFx.h",
+      "name": "include/fad/engine/fx/Eq3BandFx.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b96137608b872957e8e47281f86756de1f7edfa03de64ec57907cc48cb68a297"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/WarpPhase.h",
+      "name": "include/fad/engine/oscillators/WarpPhase.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3db50443c49363b8a607726b70867c17a95626bed9b538e30c8e5945b19a2682"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/OscillatorBlock.h",
+      "name": "include/fad/engine/oscillators/OscillatorBlock.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "94d9cc44df87f7112f8400d078f86d1b451dd52182e5f8227065a59f18e588e9"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/SerumSubWaveforms.h",
+      "name": "include/fad/engine/oscillators/SerumSubWaveforms.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7e911170088877d6038062bd398e42d1e78e4d34f9371a13d50a52e0f3d0656c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/SerumPhaseRandom.h",
+      "name": "include/fad/engine/oscillators/SerumPhaseRandom.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "12bec38650a6bd931b7adddbb8c032e1bfc0b63d78a7c58e6364e674fb30fd75"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/SerumBendWarp.h",
+      "name": "include/fad/engine/oscillators/SerumBendWarp.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3765693d6d748096b84a3dd8251f30adcc88efdad740f6b4d7f2365755d8c9e0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/NoiseSamplePlayer.h",
+      "name": "include/fad/engine/oscillators/NoiseSamplePlayer.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "83f037ad9231bb29210dc8f1e7858444e591bc928b4a897382a4a31077694ad8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/OscillatorTimbreMapping.h",
+      "name": "include/fad/engine/oscillators/OscillatorTimbreMapping.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "415c65f33e3e71f466eb641d2d8f0877a4b241c39373612201497cbd09c9e4fb"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/oscillators/SerumUnison.h",
+      "name": "include/fad/engine/oscillators/SerumUnison.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "40c37c02d04b13f19b412d870b5638421878f18f9de895aba8f2439d2f271214"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/rt/ScopedNoDenormals.h",
+      "name": "include/fad/engine/rt/ScopedNoDenormals.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9c880791764e15cd9ec2ee7938e0990a47f94fefd61c97f02c69347a0cfe05a8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/rt/SpscCursor.h",
+      "name": "include/fad/engine/rt/SpscCursor.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1102fdd60da0c883ebc359cb6387effc736ab5896e6290b47b39018ae5f35397"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/Lcg48.h",
+      "name": "include/fad/engine/math/Lcg48.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3f0a1102733b67ce397fcd078b12eeee8cabe6ea35eee2f106190073b165a49c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/Numeric.h",
+      "name": "include/fad/engine/math/Numeric.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7160479c04b6f1306210e053e4902d560057c249e0970df26e38abbeba975356"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/DspSafetyUtils.h",
+      "name": "include/fad/engine/math/DspSafetyUtils.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8dc4d0cfe021a8abb7c896b13dc05b451d9954f924b01effe7e02a1e3c92d97e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/DspMath.h",
+      "name": "include/fad/engine/math/DspMath.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3c3655e227fab6853380788ad7b54b902af609b7d0d0c979a5570ff9557da26b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/RuntimeRange.h",
+      "name": "include/fad/engine/math/RuntimeRange.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2fa9e2246905cb09799c06f2a7dd9e5253814c37fb93b51908a8f7c5bf4d806d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/RationalExp.h",
+      "name": "include/fad/engine/math/RationalExp.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "804387a68a9b9c2264019051744e25f02478eae1d5ec0f3ea90e67c901473bc8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/LinearSmoother.h",
+      "name": "include/fad/engine/math/LinearSmoother.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7d765525fdb24cd548d8ae0886c8e57be39fa1bef1e822cf6e79c8cfd1d408a8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/math/RationalTanh.h",
+      "name": "include/fad/engine/math/RationalTanh.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "090f388aa3dbf5676d8ca5a72304f2e9a664b33581a7410387f054cd3f6828ed"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/safety/AudioSafetyStage.h",
+      "name": "include/fad/engine/safety/AudioSafetyStage.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2a50d10cc8ae8c57ffd5c94573b6203f75a3ffab3614f5b2819ec13fb91fe5fe"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/safety/OutputPeakLimiter.h",
+      "name": "include/fad/engine/safety/OutputPeakLimiter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eec3f69137434f795933b8de179cc8094dfbafc01cad05a9c5b40ddf68cc1271"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/OfflineSeed.h",
+      "name": "include/fad/engine/synth/OfflineSeed.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e6f8e3efc105c10a9604362ef53c8eaa70f618c0bb397ea983c332c264fb325b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/RenderEngine.h",
+      "name": "include/fad/engine/synth/RenderEngine.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "008918b3461f405e9ec3284265bf43487657990fca4febdda2e5ae7c8b65a90d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/PerformanceCurve.h",
+      "name": "include/fad/engine/synth/PerformanceCurve.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "03b5cf9856c57a5ca8a42dafe6e1a0c21dfc620cbb0c2b67c8b10309b449e000"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/RenderServiceHooks.h",
+      "name": "include/fad/engine/synth/RenderServiceHooks.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "71de78bf76974e170d32a9c69d192dae29e1e67b1bdd89a93283c4eee55ec2b3"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/NativeGlide.h",
+      "name": "include/fad/engine/synth/NativeGlide.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a03e751cc40f5b96c8e62050ef21040c44db6a7672fd30754fb711a0c2f83b79"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/VoiceCore.h",
+      "name": "include/fad/engine/synth/VoiceCore.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8001a01ad90f8cd7d3be1ba1e557f82528933595659f6885f08694ba0e934704"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/synth/NativeOctave.h",
+      "name": "include/fad/engine/synth/NativeOctave.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "84de8be00389ff3d352a1f8654e7aed75c648934bbe291e9430b2587759b7877"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/detail/EventSignal.h",
+      "name": "include/fad/engine/detail/EventSignal.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5934172080cba4bae11f70c8739784628702b9f3f30b03b8489baa007f73dbc8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/detail/PlanarBuffer.h",
+      "name": "include/fad/engine/detail/PlanarBuffer.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "33588e9a15dd6f8248ca14c8098cbd24c2899776d4129ff2ef79c3bc2c5b2b89"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/detail/Scope.h",
+      "name": "include/fad/engine/detail/Scope.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4868ee32718c743a3ce54775900ee59dcc3ce95ae7daaa48fa5ac4eda63c5f6c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/diagnostics/DiagnosticsSnapshot.h",
+      "name": "include/fad/engine/diagnostics/DiagnosticsSnapshot.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "38b502b75b65956ae1286430cd17acac53dfbb6d0f916358d4ec2abaf08d53fd"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/diagnostics/ModulationTrace.h",
+      "name": "include/fad/engine/diagnostics/ModulationTrace.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "595c08cbedd1cde615c4e4a89f6e36ca26f4b32cb9647db66be0d860754edea6"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/diagnostics/SignalFlowGraph.h",
+      "name": "include/fad/engine/diagnostics/SignalFlowGraph.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6f8a79fe2b1761394a638da9788969ca831b45993413f3a2bac5182c6655f489"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/diagnostics/ClipDetector.h",
+      "name": "include/fad/engine/diagnostics/ClipDetector.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7472c43ca4720016730c1b55341a7c02b1253461dd8c63f936b182c1ba349a29"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/diagnostics/SessionMetrics.h",
+      "name": "include/fad/engine/diagnostics/SessionMetrics.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "772f1f6dd2342c4438648b1982ef852097cdafef63f1bbf4c1da2f4812c566f9"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/diagnostics/CpuMeter.h",
+      "name": "include/fad/engine/diagnostics/CpuMeter.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ff6a0b5847c5a518204f2fd6b68564b8453cda9bd7217d68234402d1b9922303"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/NativeModulationTargets.h",
+      "name": "include/fad/engine/parameters/NativeModulationTargets.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cadfbae7b75cd5efa37a80b2a533f720f9b3ee9e83d685d2ca39bd424b1e38b3"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/RenderTimeline.h",
+      "name": "include/fad/engine/parameters/RenderTimeline.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "278f327ce32f11c97eea4cf485590a360c988db916725f5c5d1572da4ab20244"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/NativeModulationSources.h",
+      "name": "include/fad/engine/parameters/NativeModulationSources.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8e6faf6d88393142d031e7cc982755d29ad3e35b8e27baaf00c5fcdc0dcc1bc1"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/ParameterTypes.h",
+      "name": "include/fad/engine/parameters/ParameterTypes.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9ddc2ff455423997519256862e4d5db3e56289576ecc104c7f5ce99b6eef7c73"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/FxRouting.h",
+      "name": "include/fad/engine/parameters/FxRouting.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3c1d35f714c2ba82671fe772eefb2097b894d7ed63db08e7e5e22fba582c2ec7"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/RenderParameterAccess.h",
+      "name": "include/fad/engine/parameters/RenderParameterAccess.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cdbbc5e986356719674df13240cae715220e5d054483712fb0731174f2d7c31c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/ParameterSnapshot.h",
+      "name": "include/fad/engine/parameters/ParameterSnapshot.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c9f88da6c557978861386550965b276cd39f3fdac161012ab44cf83518f4db43"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/SerumCutoffCurve.h",
+      "name": "include/fad/engine/parameters/SerumCutoffCurve.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a7fc087eee8f7be6ef82d1be4daeaffd6e61954da15548bc094c13007fa35b7f"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/parameters/CurveNodes.h",
+      "name": "include/fad/engine/parameters/CurveNodes.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "15ab90beac3986e912816b3165a65739b92bde4df5deef8ac80adb00db649dbf"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/assets/WavetableBank.h",
+      "name": "include/fad/engine/assets/WavetableBank.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fb6d78c11b9b66e491d3dcb8672d61b0af9e593574e1cb254ac0d2a8bfbd5985"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/assets/AssetAttachment.h",
+      "name": "include/fad/engine/assets/AssetAttachment.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "274e96c453e3e88f4985435377bb274f1abbb4081d741125caafc6db3d1cd95a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/assets/NativeLfoCurveData.h",
+      "name": "include/fad/engine/assets/NativeLfoCurveData.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1a2b1a651b3dfeaef997c75ff22cbcecec66436d6e549f43e50a478439ee8e17"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/assets/WavetableData.h",
+      "name": "include/fad/engine/assets/WavetableData.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b856ef20ea3b08163eca41b192c10a7badbf15e918c041d62f1b7619991d67e2"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:include/fad/engine/assets/PreparationFft.h",
+      "name": "include/fad/engine/assets/PreparationFft.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7855ed791f3c457db325089079a9135e86078706d85be608913d6cb8aa70607a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/SignalFlowGraph.cpp",
+      "name": "src/SignalFlowGraph.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5bbb96a2476a21b73af9916d21207d924fc93be2b2f652975c26c7d9b414118c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/OscillatorBlock.cpp",
+      "name": "src/OscillatorBlock.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d7d65ff4d1f3ebdfd9d926efbe152ba84cdece4b87401169b14b22659c2aeb6"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/RenderEngine.cpp",
+      "name": "src/RenderEngine.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "75917b1ad10e3275a92247893578442b5c28ba3a06bd24339a8d155b2e44f468"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/ParameterSnapshot.cpp",
+      "name": "src/ParameterSnapshot.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e46efb0f58bbfcda5e1025c6b5e1e20b958608897ba4c31f54ed6e6b549f861"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/ModMatrix.cpp",
+      "name": "src/ModMatrix.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2dd4e1857980e2b2458335003ed2520c8f0010f3bda67d50e6209a929c9b20c1"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/VoiceCore.cpp",
+      "name": "src/VoiceCore.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d16c7305e4176022b95f38023a304d4b4c7be35bc6e3193039c4f49b19efb013"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/Lfo.cpp",
+      "name": "src/Lfo.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "94f699493453826c13c383b4d20681d9c212f71f3903bc11138b8be6422c4822"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/CpuMeter.cpp",
+      "name": "src/CpuMeter.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ea8806b3fa94194bd59e972aa9d6fdc6bccac0c2b2e275a5a1d765398df06fa5"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/AudioSafetyStage.cpp",
+      "name": "src/AudioSafetyStage.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "052543a50e94b648fcf197122008fd78c69af67362f1e23929ae58d17a9022c2"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/FilterBlock.cpp",
+      "name": "src/FilterBlock.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7b746865cef74896f1565e8964c0c9dc70499534fa3cb3ffc3e33fc74800f441"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/WavetableData.cpp",
+      "name": "src/WavetableData.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "44524d8a8898b6495cce2954b602cc87370cb1617be2c3e2a7ae24c12995bded"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/ClipDetector.cpp",
+      "name": "src/ClipDetector.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "233704b75bf80c164d6e75c3446519734207ae9342c3901c84b5b33ff2b8bb0d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/WavetableBank.cpp",
+      "name": "src/WavetableBank.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5d28bc02dda30128792db5f7cad41b773f6ae2f1f6d572325644ddd05976005d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/PhaserFx.cpp",
+      "name": "src/fx/PhaserFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6c830453011f19a947abc63ae3a959bf24ea428d38b560eb4e65b27ca078e614"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/DelayFx.cpp",
+      "name": "src/fx/DelayFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6b930a6f7458ce62da6d706b657682afbb44b3e2234a94d9f44a865edac075fb"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/LimiterFx.cpp",
+      "name": "src/fx/LimiterFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "231baf802567a9e507a9f616ea7006a124a255e7175f53cd44298811fcb62dc2"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/Eq3BandFx.cpp",
+      "name": "src/fx/Eq3BandFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bf1a2162c245f968722d689d56a50d00e7b777b8d558c50242bc67ffc11f3e6d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/CompressorFx.cpp",
+      "name": "src/fx/CompressorFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "80724c09e8d36f461d827b2dc62c43093b7e4acd07d622c9af3694b5b72e6f35"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/FxFactory.cpp",
+      "name": "src/fx/FxFactory.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cd5097451b42dea18b567c8580368940a4609b436d9e8cebd6ae738ec0038a49"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/DriveFx.cpp",
+      "name": "src/fx/DriveFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b2da0fe0c6b3b24832ec4ea5fe52fe5bf7ff68b6d4ee237c8e9cd80e36d7ae91"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/ReverbFx.cpp",
+      "name": "src/fx/ReverbFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0df513d6794b98981d9362e73e2526f0b5a1999017198fd5352096cb5c73b4ab"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/FlangerFx.cpp",
+      "name": "src/fx/FlangerFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3d8bfb9d704f9c948466cb943ca6073e4c5df14f4c9fcdb8d616f2c6e91a390"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/BitcrusherFx.cpp",
+      "name": "src/fx/BitcrusherFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a42e98bf717733d30fa0975d6ec9e0bd56b0fffc79da35415dc0222db88f9348"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/FilterFx.cpp",
+      "name": "src/fx/FilterFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4a72997685fece70a5e0b5a0fd0cd3948b94c2a2677961c536e1ee4ccdd5e690"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/DynamicFxChain.cpp",
+      "name": "src/fx/DynamicFxChain.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a4004957184a7711d0e31d6295f16b080151f6afb9655e1c4143d2de66e93146"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/StereoFx.cpp",
+      "name": "src/fx/StereoFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "008cf350ec0189a4c3971e8d4db1840138d278807c8ae5e0e03b83b5c3b761d2"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/DistortionFx.cpp",
+      "name": "src/fx/DistortionFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9c05449350e925e9498213a2d03aea89ade41cdf75614aa57b494fa0c61158c8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:src/fx/ChorusFx.cpp",
+      "name": "src/fx/ChorusFx.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3987c81599f69dc7eb546567235ca9af12dfef9b66e90276574c52fd966054de"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:tests/FullRenderTests.cpp",
+      "name": "tests/FullRenderTests.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "055282eb8a8a071fbf13aa40bd31a8fef39c62e8e4aeda2424b4daeeb44c6a41"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:tests/RenderEngineTests.cpp",
+      "name": "tests/RenderEngineTests.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0a124119fa2f93daa4f0448095568956a45512a7180e2c98a97225d8beafcb12"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:tests/CoreContractTests.cpp",
+      "name": "tests/CoreContractTests.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9ecbf57fad119620926dfd518965ed227c3dd8a763cee5b1e2628dda41acce47"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:tests/RuntimePrimitiveTests.cpp",
+      "name": "tests/RuntimePrimitiveTests.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c26d0020e1e15485e8a0ac85d615007d4bf31c819c79b761da5157a2e4188dfd"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:tests/VoiceCoreTests.cpp",
+      "name": "tests/VoiceCoreTests.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "970c6e6d0a22825dcf2f8257ac93516652b43d3509a76827174e00ce9aae2e1e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:tests/AssetPublicationTests.cpp",
+      "name": "tests/AssetPublicationTests.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "133485bf721760b0db3cc0409facad49e1cdf4712d779a1c27093735b63be1a5"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:cmake/FadEngineConfig.cmake.in",
+      "name": "cmake/FadEngineConfig.cmake.in",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce6d04ba7f39b9934d56abfaa506905b1dec664e40c958be5df1cd6f2ae48f7d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/vst3/CMakeLists.txt",
+      "name": "examples/vst3/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b417226234bf2730faee88e083dc80da7350ece4e19d8d5f7d80f48eb83633de"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/vst3/DemoHost.cpp",
+      "name": "examples/vst3/DemoHost.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b2be77feb7e15f234781a90495aef713e717220f4b060a57f947ba63463c3537"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/vst3/DemoPlugin.cpp",
+      "name": "examples/vst3/DemoPlugin.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2f83fd22a5bd2bedd20c518b0d7bbd45e774b8d84e028225da1e1cdb94a6fb9e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/vst3/Info.plist.in",
+      "name": "examples/vst3/Info.plist.in",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d4261cde2d7ba55fda68e73f2c5d4588071e2fece370c982d436d7f72b824087"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/minimal/CMakeLists.txt",
+      "name": "examples/minimal/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "06c37ef5de002058050ae2f97aefdf1c2c843c17c293e0d35217b52c3dc41d2c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/minimal/minimal_render.cpp",
+      "name": "examples/minimal/minimal_render.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d52955b6373a1143a743779b8927f0145f5b454837c94ccada5ee43d56fb691a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/common/DemoPatch.h",
+      "name": "examples/common/DemoPatch.h",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b9dcba5732d6b80d7759b41d030fb2d7f8991bd31fc74a03b7389163d3bfdecd"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:examples/headless/RenderWave.cpp",
+      "name": "examples/headless/RenderWave.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "685fa3e19d33055551c1ac7ba633a5683806e0ec8d9fdfd5b632eb8bd1888bf2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "optional-vst3sdk@3.8.1_build_84",
+      "name": "Steinberg VST3 SDK",
+      "version": "3.8.1_build_84",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "fad:scope",
+          "value": "Optional independent example only; not vendored or linked by default Core"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "fad-engine-vst3-demo@0.1.0",
+      "name": "FAD Engine Community Demo",
+      "version": "0.1.0",
+      "scope": "optional"
+    },
+    {
+      "type": "file",
+      "bom-ref": "source:CMakeLists.txt",
+      "name": "CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "38933c4f20d4a7ddcedbdcbd7e246dd2bd25246cfee7f785e306b06864c8a0b1"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "artwork:steinberg-vst-compatible",
+      "name": "assets/steinberg/vst-compatible.png",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fdf4f96b7a8bc1f53f0d2c167a27ac5fac00f29ff4a7bc3eaad851ad4be10f35"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Steinberg VST trademark usage guidelines",
+            "url": "https://steinbergmedia.github.io/vst3_dev_portal/pages/VST%2B3%2BLicensing/Usage%2Bguidelines.html"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "fad-engine-core@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "fad-engine-vst3-demo@0.1.0",
+      "dependsOn": [
+        "fad-engine-core@0.1.0",
+        "optional-vst3sdk@3.8.1_build_84"
+      ]
+    }
+  ]
+}

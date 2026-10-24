@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engine 参数与状态"
+  short_description: "贯通参数、完整 snapshot、automation 与 restore 的权威路径"
+  default_prompt: "使用 $fad-engine-state 实现这项参数或状态修改，并验证恢复与自动化兼容。"

@@ -1,0 +1,296 @@
+openFAD 0.1
+License identifier: LicenseRef-openFAD-0.1
+Copyright (c) 2024–2026 阿勒泰自由意文化服务有限责任公司 (FAD Records) and the applicable contributors.
+
+This is a source-available license. It is not an OSI-approved open-source license.
+It intentionally reserves paid products and closed-source distribution for a
+separate Commercial License. Read the conditions before using or distributing
+the Software. No fee for making or selling music is imposed by this license.
+
+IMPORTANT: Community Distribution of Engine Modifications requires the limited
+commercial improvement grant in section 7A and an express grant notice. That
+grant concerns Engine changes only, not independent products, UI or media.
+
+1. DEFINITIONS
+
+"Licensor" means a copyright holder identified in the Software's applicable
+notices, to the extent that holder has authority to grant the relevant rights.
+
+"Project Licensor" means 阿勒泰自由意文化服务有限责任公司, publishing as
+FAD Records. legal/PROJECT-LICENSOR.md records this fixed company identity for
+reference. Contributors, maintainers, licensees and repository administrators
+do not become the Project Licensor merely by holding those roles. Changing a
+fork, owner, notice or identity file cannot redirect this grant to another
+beneficiary. A lawful successor must establish the relevant transferred rights;
+a later document edit does not retroactively substitute a beneficiary.
+
+"Engine Modification" means a change to, derivative of, or addition incorporated
+into the Engine's implementation or interfaces, including related Engine tests
+and build changes necessary for that modification. Merely linking or calling
+an unchanged Engine does not make an independent application, plugin wrapper,
+UI, brand, music, preset or asset an Engine Modification.
+
+"Community Improvement" means an Engine Modification you own or are authorized
+to license and that you deliberately distribute or make publicly available in
+exercise of the Community rights under this version. It does not include a
+private, undistributed modification or an unrelated independent module.
+
+"Software" means the FAD Engine code, examples, documentation and development
+skills in this repository, including modifications, except material expressly
+covered by a separate third-party license. It does not include FAD Synth, FAD
+product UI, ALT, models or training data, factory presets, commercial audio or
+visual assets, account systems, commerce code, or production services.
+
+"Covered Product" means a plugin, application, library, service, hardware
+product, or other software offering that contains, links to, embeds, or uses the
+Software as a material part of its delivered functionality.
+
+"Complete Corresponding Source" means the preferred form for modifying the
+specific Covered Product version, including the Software and its modifications,
+integration code, parameter and state definitions, and the build scripts and
+configuration needed to build that version. Separately available, unmodified
+general-purpose compilers, operating systems and system libraries need not be
+copied. Other dependencies may be supplied through lawful, working retrieval
+instructions that identify the required versions and applicable licenses.
+Private credentials, signing keys and user data must not be included.
+
+"Community Distribution" means distribution of a Covered Product that is
+available to every recipient without a mandatory payment or paid entitlement,
+with public, no-charge access to its Complete Corresponding Source. A trial,
+time-limited evaluation of a paid product, paid bundle, purchase-dependent
+download, premium feature tier, or payment-gated update is not Community
+Distribution. Merely publishing the Engine part of a closed product is not
+Complete Corresponding Source.
+
+"Commercial Use" means selling or licensing a Covered Product for consideration,
+charging for access to its Engine-powered functionality, incorporating it into
+a paid bundle or commercial hardware offering, operating an Engine-powered paid
+service, or a use separately designated as commercial by written agreement with
+the Licensor. Commercial Use does not include the permitted musical output or
+the unconditional donations described below.
+
+2. COMMUNITY GRANT
+
+Subject to compliance with this license, the Licensor grants a worldwide,
+non-exclusive, royalty-free copyright license to inspect, study, evaluate,
+privately modify and test the Software, and to make, run, modify, reproduce and
+distribute the Software as part of Community Distribution. You may also use a
+lawfully licensed Covered Product to create, perform, render, distribute and
+sell music and other audio output as described in section 5.
+
+This grant permits research, learning and product evaluation. It does not grant
+the right to deploy a Covered Product for Commercial Use or to distribute a
+closed-source Covered Product. Obtain a separate Commercial License for those
+uses. A company or individual may undertake the permitted evaluation and may
+make Community Distributions on the same conditions; affiliation alone does not
+change the conditions.
+
+3. DISTRIBUTION CONDITIONS
+
+For every Community Distribution, you must:
+
+(a) Include this license and preserve applicable copyright, attribution,
+third-party license and notice information. Identify material modifications
+without suggesting the original authors endorse them.
+
+(b) Provide a prominent, working link or accompanying source package giving
+public, no-charge access to the Complete Corresponding Source for that exact
+released version. Source access must not require a purchase, donation, paid
+account, non-disclosure agreement or individualized permission. Normal public
+code-host access and download mechanisms are acceptable.
+
+(c) Make source available no later than the corresponding binary or service
+release, throughout the time you offer it, and for at least three years after
+your last distribution of that version. If the host becomes unavailable,
+restore access through another public location without unreasonable delay.
+
+(d) Permit recipients to inspect, modify and redistribute your contributions
+and integration code as necessary to exercise the same Community rights. You
+may apply a compatible, more permissive license to your own contributions, but
+may not grant commercial or closed-source rights to the underlying Software
+that you do not hold. Additional terms must not defeat this license or prevent
+rebuilding and modifying the corresponding version. The Project Licensor's
+separate rights under section 7A or an accepted contributor agreement are not
+limited by this paragraph.
+
+(e) Keep the Covered Product available without payment-gated functionality,
+downloads, updates, early access or exclusive editions. Do not impose technical
+or contractual restrictions that negate the rights granted here.
+
+(f) For each Community Improvement, make the express grant in section 7A and
+publish a grant notice with the corresponding source. Identify the rights
+holder, affected paths/commit or release, this license version and the Project
+Licensor. Use legal/IMPROVEMENT-GRANT-NOTICE.md or an equivalent clear statement.
+A required authority record may be supplied privately to the Project Licensor;
+do not publish personal addresses, identity documents or private signatures.
+A licensee unable to grant these rights must obtain a separate agreement before
+distributing the affected modification under these Community terms.
+
+These conditions apply to binaries and source distributions alike. Distributing
+a modified Engine on its own is also subject to this license.
+
+4. COMMERCIAL AND CLOSED-SOURCE USE
+
+A separate written Commercial License is required before:
+
+(a) distributing a Covered Product without its Complete Corresponding Source,
+even if its binaries are free of charge; or
+
+(b) undertaking Commercial Use, even if the Covered Product's source is public.
+
+Publication of this repository, use of the name "community", passing a test,
+making a donation, or a third-party SDK license does not grant Commercial
+License rights. Commercial scope, fees, covered versions, distribution rights,
+support and other obligations are governed only by that separate agreement.
+The Licensor is not required to offer a Commercial License on any particular
+terms. See legal/COMMERCIAL-LICENSE.md for the request process.
+
+5. MUSIC AND AUDIO OUTPUT
+
+The ordinary use of a lawfully licensed Covered Product to make, perform,
+publish or sell music and other rendered audio does not require an additional
+Engine license or Engine royalty. This license does not impose source-release
+obligations on such music or ordinary audio output.
+
+This exception does not authorize redistribution of the Software, its source,
+or a Covered Product disguised as an audio file, and does not grant rights to
+third-party samples, presets, performances or other protected input material.
+
+6. VOLUNTARY DONATIONS AND SEPARATE SERVICES
+
+Unconditional, voluntary donations are permitted without converting a qualifying
+Community Distribution into a paid product. A donation must not purchase or
+unlock functionality, downloads, updates, early access, an exclusive edition or
+any other Covered Product entitlement.
+
+Charging for genuinely separate consulting, training or support does not by
+itself make the no-charge Covered Product a paid product, provided payment is
+not required to obtain, use, modify, rebuild or update it. Relabeling product
+access or Engine-powered service access as support or a donation does not avoid
+the Commercial License requirement.
+
+7. THIRD-PARTY RIGHTS AND TRADEMARKS
+
+Material under a separate third-party license remains under that license. This
+license grants no rights that the Licensor does not control, does not replace a
+JUCE or SDK license, and does not revoke any rights previously granted under
+another applicable license. Preserve all applicable notices.
+
+No trademark, logo, product endorsement or right to represent a modified product
+as an official FAD product is granted. FAD Records, FAD Synth and third-party
+product names are used only to identify their respective projects or owners.
+The name of this license may be reproduced to identify its terms.
+
+7A. LIMITED ENGINE IMPROVEMENT GRANT TO THE PROJECT LICENSOR
+
+For each Community Improvement you deliberately distribute under this version,
+you grant the Project Licensor a perpetual, irrevocable (except as mandatory law
+requires), worldwide, non-exclusive, no-charge, royalty-free copyright license
+to reproduce, modify, translate, prepare derivative works of, compile, publicly
+display or perform, use, distribute and sublicense that Community Improvement.
+The Project Licensor may do so under Community, proprietary, commercial or other
+terms, including incorporation into paid, closed-source FAD Synth and licensing
+resulting products to third parties, without publishing that product's source
+or owing an additional royalty for the licensed improvement.
+
+This is an additional grant to the identified Project Licensor, not permission
+for every openFAD 0.1e to undertake commercial or closed-source use. You
+retain copyright, the right to use and license your own work, and all rights
+outside this express grant. The Project Licensor must preserve legally required
+copyright/attribution and applicable third-party notices. Non-waivable moral
+rights are unaffected; consent to modifications is limited to what applicable
+law permits and what is needed to exercise the granted rights.
+
+The grant does not cover your independent product, integration code that is
+not itself an Engine Modification, UI, brand, documentation unrelated to the
+Engine, music, presets, sample libraries, other media or unrelated modules.
+The Complete Corresponding Source obligation does not expand this grant to
+those materials. Mere use of the Engine, purchase of a Commercial License,
+repository visibility, a bare fork or an unaccepted pull request creates no
+broader rights in another party's work.
+
+To the extent you control patent claims necessarily infringed by that Community
+Improvement alone or with the Engine to which it was made, you grant the Project
+Licensor and recipients it licenses a perpetual, worldwide, non-exclusive,
+royalty-free patent license for the activities expressly permitted by this
+section. No unrelated or third-party patents are granted. This patent grant
+terminates for a recipient that files a patent claim alleging the improvement
+or that combination infringes; the copyright grant is otherwise unaffected.
+
+You must have authority from employers, clients, coauthors and other relevant
+rights holders. Disclose separately licensed material and its restrictions;
+this license cannot convert rights you do not control into commercial rights.
+Incompatible third-party material needs a separate lawful solution before
+adoption. The Project Licensor must verify the actual grant/notice and scope
+before commercial integration; it must not treat a missing record as consent.
+
+A valid grant already made under this section survives withdrawal of an offer,
+removal of a fork, later license changes and termination of your Community use
+rights, to the extent permitted by law. No backward effect on previously issued
+licenses or third-party rights is intended. A change published only under an
+earlier license without this grant requires its own permission; it cannot be
+retroactively claimed by changing this repository's license.
+
+Intentionally submitted contributions are also subject to the separate,
+expressly accepted contributor agreement. Neither merging a PR nor a checkbox
+without the required contributor/authority/scope record substitutes for that
+agreement. See CONTRIBUTING.md and legal/CONTRIBUTOR-LICENSE-AGREEMENT.md.
+
+8. PATENTS
+
+Each Licensor grants, for its contributions only, a non-exclusive, worldwide,
+royalty-free patent license solely for patent claims it controls that are
+necessarily infringed by the permitted use of those contributions alone or
+with the Software to which they were contributed. This grant is limited to the
+activities permitted by this license. It grants no rights to unrelated patents
+or third-party contributions. If you bring a patent claim alleging that the
+Software or a contribution infringes a patent, the patent licenses granted to
+you under this section terminate when that claim is filed.
+
+9. TERMINATION AND CURE
+
+Your rights under this license terminate automatically while you materially
+violate its conditions. If you cease the violation and fully cure it within
+30 days after first receiving written notice from a Licensor, your rights are
+reinstated unless that Licensor has expressly terminated them for repeated or
+intentional non-compliance. Rights of recipients who remain compliant are not
+terminated solely because of your violation.
+
+On termination, stop the unlicensed distribution or use. Termination does not
+erase obligations to preserve notices, supply source for distributions already
+made, or comply with accrued obligations. Sections concerning scope, reserved
+rights, valid section7A grants, warranty and liability survive as applicable.
+
+10. NO WARRANTY
+
+To the extent permitted by applicable law, the Software is provided "as is" and
+"as available", without warranties or conditions of any kind, express or
+implied, including merchantability, fitness for a particular purpose, title,
+non-infringement, uninterrupted operation or compatibility. You are responsible
+for evaluating it for your intended use and for protecting your data and audio
+systems. No performance, safety or platform certification is created by the
+examples, documentation or test results.
+
+11. LIMITATION OF LIABILITY
+
+To the extent permitted by applicable law, no Licensor or contributor is liable
+for any claim or damage arising from the Software or its use, including direct,
+indirect, incidental, special or consequential loss, loss of data, revenue,
+business or opportunity, under any theory of liability, even if advised of the
+possibility. This section does not exclude liability that cannot lawfully be
+excluded.
+
+12. ACCEPTANCE, CHANGES AND SEVERABILITY
+
+You accept these terms by exercising rights granted by this license. If you do
+not accept them, no rights beyond those independently available under law or
+another applicable agreement are granted. Any additional permission or exception
+must be given by a Licensor with authority over the relevant rights.
+
+This is version 0.1 of openFAD. Publication of a future license
+does not by itself change the terms for a copy already licensed under this
+version. No "or later" permission is implied. If a provision is unenforceable,
+the remaining provisions continue to apply to the extent permitted by law.
+
+The English text is the governing text of this license. Explanations and
+translations are provided for convenience and do not expand its grant.
